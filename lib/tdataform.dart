@@ -7,6 +7,7 @@ import 'package:intl/intl.dart';
 
 class RutTD extends StatelessWidget {
   //Falta rut nueva forma
+  String nuevaCosa;
   TextEditingController rutCtrl;
   TextEditingController dvCtrl;
   FormFieldSetter<String> onSaved;
