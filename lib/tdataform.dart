@@ -24,8 +24,8 @@ class RutTD extends StatelessWidget {
 
   String obtieneDV(String pRut) {
     //https://www.lawebdelprogramador.com/codigo/JavaScript/1471-Validar-rut-Chileno.html
-    var intlargo = pRut.length;
-    if (intlargo > 0) {
+    int largo = pRut.length;
+    if (largo > 0) {
       String cRut = pRut;
       int largo = cRut.length;
       //if (largo < 7) return "";
